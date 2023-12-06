@@ -1,0 +1,1135 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon Apr 08 14:40:25 2019
+# Process ID: 12412
+# Log file: C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/vivado.log
+# Journal file: C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:24 ; elapsed = 00:00:37 . Memory (MB): peak = 659.660 ; gain = 102.090
+ERROR: [Common 17-9] Error reading message records.
+ERROR: [Common 17-9] Error reading message records.
+ERROR: [Common 17-9] Error reading message records.
+ERROR: [Common 17-9] Error reading message records.
+es...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Sidhant/Desktop/8ERROR: [Common 17-9] Error reading message records.
+ERROR: [Common 17-9] Error reading message records.
+ERROR: [Common 17-9] Error reading message records.
+ERROR: [Common 17-9] Error reading message records.
+rator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/three_and.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity three_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/part_b.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_xor
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_not
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_or.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity four_or
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_and.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity four_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/five_and.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity five_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity comparator4bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator_8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity comparator_8bit
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 753322aedeca45658dd338c6f3be1cb0 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot comparator_8bit_behav xil_defaultlib.comparator_8bit -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.my_not [my_not_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_and [my_and_default]
+Compiling architecture behavioral of entity xil_defaultlib.three_and [three_and_default]
+Compiling architecture behavioral of entity xil_defaultlib.four_and [four_and_default]
+Compiling architecture behavioral of entity xil_defaultlib.five_and [five_and_default]
+Compiling architecture behavioral of entity xil_defaultlib.four_or [four_or_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_xor [my_xor_default]
+Compiling architecture behavioral of entity xil_defaultlib.comparator4bit [comparator4bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.comparator_8bit
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot comparator_8bit_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Sidhant/Desktop/8 -notrace
+couldn't read file "C:/Users/Sidhant/Desktop/8": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Mon Apr 08 14:48:12 2019...
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:16 . Memory (MB): peak = 665.051 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "comparator_8bit_behav -key {Behavioral:sim_1:Functional:comparator_8bit} -tclbatch {comparator_8bit.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source comparator_8bit.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 676.516 ; gain = 11.465
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'comparator_8bit_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:18 ; elapsed = 00:00:30 . Memory (MB): peak = 676.516 ; gain = 12.969
+add_force {/comparator_8bit/a} -radix hex {56 0ns} {23 50000ps} -repeat_every 100000ps
+add_force {/comparator_8bit/b} -radix bin {89 0ns} {90 100000ps} -repeat_every 200000ps
+ERROR: [Simtcl 6-179] Couldn't add force for the following reason: Illegal value '89': Character '8' is not a legal binary literal.
+add_force {/comparator_8bit/b} -radix hex {89 0ns} {90 100000ps} -repeat_every 200000ps
+run all
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run: Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 685.520 ; gain = 0.000
+INFO: [Common 17-344] 'run' was cancelled
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 729.660 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'comparator_8bit' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj comparator_8bit_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/three_and.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity three_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/part_b.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_xor
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_not
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_or.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity four_or
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_and.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity four_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/five_and.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity five_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity comparator4bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator_8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity comparator_8bit
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 753322aedeca45658dd338c6f3be1cb0 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot comparator_8bit_behav xil_defaultlib.comparator_8bit -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.my_not [my_not_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_and [my_and_default]
+Compiling architecture behavioral of entity xil_defaultlib.three_and [three_and_default]
+Compiling architecture behavioral of entity xil_defaultlib.four_and [four_and_default]
+Compiling architecture behavioral of entity xil_defaultlib.five_and [five_and_default]
+Compiling architecture behavioral of entity xil_defaultlib.four_or [four_or_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_xor [my_xor_default]
+Compiling architecture behavioral of entity xil_defaultlib.comparator4bit [comparator4bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.comparator_8bit
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot comparator_8bit_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Sidhant/Desktop/8 -notrace
+couldn't read file "C:/Users/Sidhant/Desktop/8": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Mon Apr 08 14:54:24 2019...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 729.660 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "comparator_8bit_behav -key {Behavioral:sim_1:Functional:comparator_8bit} -tclbatch {comparator_8bit.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source comparator_8bit.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'comparator_8bit_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:16 . Memory (MB): peak = 729.660 ; gain = 0.000
+add_force {/comparator_8bit/a} -radix hex {20 0ns} {30 50000ps} -repeat_every 100000ps
+add_force {/comparator_8bit/b} -radix hex {10 0ns} {40 100000ps} -repeat_every 200000ps
+run all
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run: Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 729.660 ; gain = 0.000
+INFO: [Common 17-344] 'run' was cancelled
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 729.660 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'comparator_8bit' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj comparator_8bit_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/three_and.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity three_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/part_b.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_xor
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_not
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_or.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity four_or
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_and.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity four_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/five_and.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity five_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity comparator4bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator_8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity comparator_8bit
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 753322aedeca45658dd338c6f3be1cb0 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot comparator_8bit_behav xil_defaultlib.comparator_8bit -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.my_not [my_not_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_and [my_and_default]
+Compiling architecture behavioral of entity xil_defaultlib.three_and [three_and_default]
+Compiling architecture behavioral of entity xil_defaultlib.four_and [four_and_default]
+Compiling architecture behavioral of entity xil_defaultlib.five_and [five_and_default]
+Compiling architecture behavioral of entity xil_defaultlib.four_or [four_or_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_xor [my_xor_default]
+Compiling architecture behavioral of entity xil_defaultlib.comparator4bit [comparator4bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.comparator_8bit
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot comparator_8bit_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Sidhant/Desktop/8 -notrace
+couldn't read file "C:/Users/Sidhant/Desktop/8": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Mon Apr 08 14:57:35 2019...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 729.660 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "comparator_8bit_behav -key {Behavioral:sim_1:Functional:comparator_8bit} -tclbatch {comparator_8bit.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source comparator_8bit.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'comparator_8bit_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:20 . Memory (MB): peak = 729.660 ; gain = 0.000
+add_force {/comparator_8bit/a} -radix hex {10 0ns} {20 50000ps} -repeat_every 100000ps
+remove_forces { {/comparator_8bit/b} }
+add_force {/comparator_8bit/b} -radix bin {10 0ns} {40 100000ps} -repeat_every 200000ps
+ERROR: [Simtcl 6-179] Couldn't add force for the following reason: Illegal value '40': Character '4' is not a legal binary literal.
+add_force {/comparator_8bit/b} -radix hex {10 0ns} {40 100000ps} -repeat_every 200000ps
+run all
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run: Time (s): cpu = 00:00:09 ; elapsed = 00:00:18 . Memory (MB): peak = 729.660 ; gain = 0.000
+INFO: [Common 17-344] 'run' was cancelled
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 729.660 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'comparator_8bit' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj comparator_8bit_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/three_and.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity three_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/part_b.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_xor
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_not
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_or.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity four_or
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_and.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity four_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/five_and.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity five_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity comparator4bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator_8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity comparator_8bit
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 753322aedeca45658dd338c6f3be1cb0 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot comparator_8bit_behav xil_defaultlib.comparator_8bit -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.my_not [my_not_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_and [my_and_default]
+Compiling architecture behavioral of entity xil_defaultlib.three_and [three_and_default]
+Compiling architecture behavioral of entity xil_defaultlib.four_and [four_and_default]
+Compiling architecture behavioral of entity xil_defaultlib.five_and [five_and_default]
+Compiling architecture behavioral of entity xil_defaultlib.four_or [four_or_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_xor [my_xor_default]
+Compiling architecture behavioral of entity xil_defaultlib.comparator4bit [comparator4bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.comparator_8bit
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot comparator_8bit_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Sidhant/Desktop/8 -notrace
+couldn't read file "C:/Users/Sidhant/Desktop/8": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Mon Apr 08 15:00:39 2019...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 729.660 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "comparator_8bit_behav -key {Behavioral:sim_1:Functional:comparator_8bit} -tclbatch {comparator_8bit.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source comparator_8bit.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'comparator_8bit_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:18 . Memory (MB): peak = 729.660 ; gain = 0.000
+add_force {/comparator_8bit/a} -radix hex {20 0ns} {30 50000ps} -repeat_every 100000ps
+add_force {/comparator_8bit/b} -radix hex {10 0ns} {40 75000ps} -repeat_every 150000ps
+run all
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 729.660 ; gain = 0.000
+INFO: [Common 17-344] 'run' was cancelled
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 729.660 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'comparator_8bit' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj comparator_8bit_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/three_and.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity three_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/part_b.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_xor
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_not
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_or.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity four_or
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_and.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity four_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/five_and.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity five_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity comparator4bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator_8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity comparator_8bit
+ERROR: [VRFC 10-91] eq1 is not declared [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator_8bit.vhd:54]
+ERROR: [VRFC 10-283] actual of formal out port less cannot be an expression [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator_8bit.vhd:54]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator_8bit.vhd:42]
+INFO: [VRFC 10-240] VHDL file C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator_8bit.vhd ignored due to errors
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator_8bit.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator_8bit.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/first_part.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/first_part.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/five_and.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/five_and.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_and.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_and.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_or.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_or.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xor.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xor.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/part_b.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/part_b.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/parta_unsi.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/parta_unsi.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/three_and.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/three_and.vhd:1]
+[Mon Apr 08 15:03:13 2019] Launched synth_1...
+Run output will be captured here: C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.runs/synth_1/runme.log
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'comparator_8bit' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj comparator_8bit_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/three_and.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity three_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/part_b.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_xor
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_not
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_or.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity four_or
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_and.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity four_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/five_and.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity five_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity comparator4bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator_8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity comparator_8bit
+ERROR: [VRFC 10-91] eq1 is not declared [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator_8bit.vhd:54]
+ERROR: [VRFC 10-283] actual of formal out port less cannot be an expression [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator_8bit.vhd:54]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator_8bit.vhd:42]
+INFO: [VRFC 10-240] VHDL file C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator_8bit.vhd ignored due to errors
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator_8bit.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator_8bit.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/first_part.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/first_part.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/five_and.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/five_and.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_and.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_and.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_or.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_or.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xor.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xor.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/part_b.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/part_b.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/parta_unsi.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/parta_unsi.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/three_and.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/three_and.vhd:1]
+[Mon Apr 08 15:04:45 2019] Launched synth_1...
+Run output will be captured here: C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.runs/synth_1/runme.log
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'comparator_8bit' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj comparator_8bit_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/three_and.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity three_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/part_b.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_xor
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_not
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_or.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity four_or
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_and.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity four_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/five_and.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity five_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity comparator4bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator_8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity comparator_8bit
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 753322aedeca45658dd338c6f3be1cb0 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot comparator_8bit_behav xil_defaultlib.comparator_8bit -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.my_not [my_not_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_and [my_and_default]
+Compiling architecture behavioral of entity xil_defaultlib.three_and [three_and_default]
+Compiling architecture behavioral of entity xil_defaultlib.four_and [four_and_default]
+Compiling architecture behavioral of entity xil_defaultlib.five_and [five_and_default]
+Compiling architecture behavioral of entity xil_defaultlib.four_or [four_or_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_xor [my_xor_default]
+Compiling architecture behavioral of entity xil_defaultlib.comparator4bit [comparator4bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.comparator_8bit
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot comparator_8bit_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Sidhant/Desktop/8 -notrace
+couldn't read file "C:/Users/Sidhant/Desktop/8": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Mon Apr 08 15:06:04 2019...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 729.660 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "comparator_8bit_behav -key {Behavioral:sim_1:Functional:comparator_8bit} -tclbatch {comparator_8bit.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source comparator_8bit.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'comparator_8bit_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:13 . Memory (MB): peak = 729.660 ; gain = 0.000
+add_force {/comparator_8bit/a} -radix hex {10 0ns} {20 50000ps} -repeat_every 100000ps
+add_force {/comparator_8bit/b} -radix hex {00 0ns} {40 100000ps} -repeat_every 200000ps
+run all
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 729.660 ; gain = 0.000
+INFO: [Common 17-344] 'run' was cancelled
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 729.660 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'comparator_8bit' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj comparator_8bit_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/three_and.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity three_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/part_b.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_xor
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_not
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_or.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity four_or
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_and.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity four_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/five_and.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity five_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity comparator4bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator_8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity comparator_8bit
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 753322aedeca45658dd338c6f3be1cb0 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot comparator_8bit_behav xil_defaultlib.comparator_8bit -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-664] expression has 0 elements ; expected 4 [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator_8bit.vhd:54]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit comparator_8bit in library work failed.
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav/elaborate.log' file for more information.
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 729.660 ; gain = 0.000
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator_8bit.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator_8bit.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/first_part.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/first_part.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/five_and.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/five_and.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_and.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_and.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_or.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_or.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xor.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xor.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/part_b.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/part_b.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/parta_unsi.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/parta_unsi.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/three_and.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/three_and.vhd:1]
+[Mon Apr 08 15:09:56 2019] Launched synth_1...
+Run output will be captured here: C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.runs/synth_1/runme.log
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'comparator_8bit' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj comparator_8bit_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/three_and.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity three_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/part_b.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_xor
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_not
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_or.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity four_or
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_and.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity four_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/five_and.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity five_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity comparator4bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator_8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity comparator_8bit
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 753322aedeca45658dd338c6f3be1cb0 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot comparator_8bit_behav xil_defaultlib.comparator_8bit -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-664] expression has 0 elements ; expected 4 [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator_8bit.vhd:54]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit comparator_8bit in library work failed.
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav/elaborate.log' file for more information.
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 729.660 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'comparator_8bit' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj comparator_8bit_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/three_and.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity three_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/part_b.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_xor
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_not
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_or.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity four_or
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_and.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity four_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/five_and.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity five_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity comparator4bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator_8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity comparator_8bit
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 753322aedeca45658dd338c6f3be1cb0 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot comparator_8bit_behav xil_defaultlib.comparator_8bit -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-664] expression has 0 elements ; expected 4 [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator_8bit.vhd:54]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit comparator_8bit in library work failed.
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav/elaborate.log' file for more information.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 738.488 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'comparator_8bit' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj comparator_8bit_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/three_and.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity three_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/part_b.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_xor
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_not
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_or.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity four_or
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_and.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity four_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/five_and.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity five_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity comparator4bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator_8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity comparator_8bit
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 753322aedeca45658dd338c6f3be1cb0 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot comparator_8bit_behav xil_defaultlib.comparator_8bit -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-664] expression has 0 elements ; expected 4 [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator_8bit.vhd:54]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit comparator_8bit in library work failed.
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav/elaborate.log' file for more information.
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 738.488 ; gain = 0.000
+close [ open {C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/partc.vhd} w ]
+add_files {{C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/partc.vhd}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xorr.vhd} w ]
+add_files {{C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xorr.vhd}}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator_8bit.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator_8bit.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/first_part.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/first_part.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/five_and.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/five_and.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_and.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_and.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_or.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_or.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xor.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xor.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xorr.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xorr.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/part_b.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/part_b.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/parta_unsi.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/parta_unsi.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/partc.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/partc.vhd:1]
+CRITICAL WARNING: [HDL 9-849] Unexpected EOF. [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/partc.vhd:67]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/three_and.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/three_and.vhd:1]
+[Mon Apr 08 17:42:53 2019] Launched synth_1...
+Run output will be captured here: C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.runs/synth_1/runme.log
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'comparator_8bit' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj comparator_8bit_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/three_and.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity three_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/part_b.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_xor
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_not
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_or.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity four_or
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_and.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity four_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/five_and.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity five_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity comparator4bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator_8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity comparator_8bit
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 753322aedeca45658dd338c6f3be1cb0 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot comparator_8bit_behav xil_defaultlib.comparator_8bit -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-664] expression has 0 elements ; expected 4 [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator_8bit.vhd:54]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit comparator_8bit in library work failed.
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav/elaborate.log' file for more information.
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 741.441 ; gain = 0.000
+remove_files {{C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator_8bit.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+close [ open {C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/one.vhd} w ]
+add_files {{C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/one.vhd}}
+update_compile_order -fileset sources_1
+set_property top one [current_fileset]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/first_part.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/first_part.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/five_and.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/five_and.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_and.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_and.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_or.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_or.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xor.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xor.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xorr.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xorr.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/one.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/one.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/part_b.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/part_b.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/parta_unsi.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/parta_unsi.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/partc.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/partc.vhd:1]
+CRITICAL WARNING: [HDL 9-849] Unexpected EOF. [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/partc.vhd:67]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/three_and.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/three_and.vhd:1]
+[Mon Apr 08 17:53:00 2019] Launched synth_1...
+Run output will be captured here: C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.runs/synth_1/runme.log
+remove_files {{C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/partc.vhd}}
+set_property top one [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'one' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj one_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xorr.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_xorr
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/part_b.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_not
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/one.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity one
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 753322aedeca45658dd338c6f3be1cb0 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot one_behav xil_defaultlib.one -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.my_not [my_not_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_and [my_and_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_xorr [my_xorr_default]
+Compiling architecture behavioral of entity xil_defaultlib.one
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot one_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Sidhant/Desktop/8 -notrace
+couldn't read file "C:/Users/Sidhant/Desktop/8": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Mon Apr 08 17:54:42 2019...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 746.723 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "one_behav -key {Behavioral:sim_1:Functional:one} -tclbatch {one.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source one.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 746.723 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'one_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:27 . Memory (MB): peak = 746.723 ; gain = 0.000
+add_force {/one/x} -radix bin {1 0ns}
+add_force {/one/y} -radix bin {1 0ns}
+run 16000 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+add_force {/one/x} -radix bin {0 0ns}
+add_force {/one/y} -radix bin {1 0ns}
+run 16000 ns
+add_force {/one/x} -radix bin {1 0ns}
+add_force {/one/y} -radix bin {0 0ns}
+run 16000 ns
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/first_part.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/first_part.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/five_and.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/five_and.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_and.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_and.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_or.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_or.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xor.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xor.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xorr.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xorr.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/one.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/one.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/part_b.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/part_b.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/parta_unsi.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/parta_unsi.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/three_and.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/three_and.vhd:1]
+[Mon Apr 08 18:00:10 2019] Launched synth_1...
+Run output will be captured here: C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/first_part.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/first_part.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/five_and.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/five_and.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_and.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_and.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_or.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_or.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xor.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xor.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xorr.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xorr.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/one.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/one.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/part_b.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/part_b.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/parta_unsi.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/parta_unsi.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/three_and.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/three_and.vhd:1]
+[Mon Apr 08 18:02:30 2019] Launched synth_1...
+Run output will be captured here: C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.runs/synth_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 772.246 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'one' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj one_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_xor
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/part_b.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_not
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/one.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity one
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 753322aedeca45658dd338c6f3be1cb0 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot one_behav xil_defaultlib.one -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.my_not [my_not_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_and [my_and_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_xor [my_xor_default]
+Compiling architecture behavioral of entity xil_defaultlib.one
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot one_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Sidhant/Desktop/8 -notrace
+couldn't read file "C:/Users/Sidhant/Desktop/8": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Mon Apr 08 18:04:03 2019...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 772.246 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "one_behav -key {Behavioral:sim_1:Functional:one} -tclbatch {one.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source one.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 772.246 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'one_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:23 . Memory (MB): peak = 772.246 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+add_force {/one/x} -radix bin {0 0ns}
+add_force {/one/y} -radix bin {1 0ns}
+run 16000 ns
+add_force {/one/y} -radix bin {0 0ns}
+run 16000 ns
+add_force {/one/x} -radix bin {1 0ns}
+run 16000 ns
+close [ open {C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/two.vhd} w ]
+add_files {{C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/two.vhd}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_orr.vhd} w ]
+add_files {{C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_orr.vhd}}
+update_compile_order -fileset sources_1
+set_property top two [current_fileset]
+update_compile_order -fileset sources_1
+set_property top two [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/first_part.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/first_part.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/five_and.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/five_and.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_and.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_and.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_or.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_or.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_orr.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_orr.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xor.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xor.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xorr.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xorr.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/one.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/one.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/part_b.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/part_b.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/parta_unsi.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/parta_unsi.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/three_and.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/three_and.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/two.vhd" into library xil_defaultlib [C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/two.vhd:1]
+[Mon Apr 08 18:25:34 2019] Launched synth_1...
+Run output will be captured here: C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.runs/synth_1/runme.log
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav/one_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'two' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj two_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_orr.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_orr
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/part_b.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_and
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_not
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/two.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity two
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 753322aedeca45658dd338c6f3be1cb0 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot two_behav xil_defaultlib.two -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.my_not [my_not_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_and [my_and_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_orr [my_orr_default]
+Compiling architecture behavioral of entity xil_defaultlib.two
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot two_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Sidhant/Desktop/8 -notrace
+couldn't read file "C:/Users/Sidhant/Desktop/8": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Mon Apr 08 18:27:05 2019...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 774.055 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "two_behav -key {Behavioral:sim_1:Functional:two} -tclbatch {two.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source two.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 774.055 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'two_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:25 . Memory (MB): peak = 774.055 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+add_force {/two/l1} -radix bin {10 0ns}
+ERROR: [Simtcl 6-179] Couldn't add force for the following reason: Illegal value '10': Object size 1 does not match size of given value 10.
+add_force {/two/l1} -radix bin {0 0ns}
+add_force {/two/l2} -radix bin {1 0ns}
+add_force {/two/e1} -radix bin {1 0ns}
+add_force {/two/e2} -radix bin {0 0ns}
+add_force {/two/g1} -radix bin {1 0ns}
+add_force {/two/g2} -radix bin {0 0ns}
+run 16000 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:11 . Memory (MB): peak = 779.008 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 779.008 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 08 18:49:07 2019...

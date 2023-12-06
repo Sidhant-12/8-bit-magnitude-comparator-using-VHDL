@@ -1,0 +1,7 @@
+Running: xsim.dir/eight_behav/xsimk.exe -simmode gui -wdb eight_behav.wdb -simrunnum 0 -socket 50242
+Design successfully loaded
+Design Loading Memory Usage: 20500 KB (Peak: 20500 KB)
+Design Loading CPU Usage: 390 ms
+Simulation completed
+Simulation Memory Usage: 29144 KB (Peak: 29144 KB)
+Simulation CPU Usage: 5499 ms

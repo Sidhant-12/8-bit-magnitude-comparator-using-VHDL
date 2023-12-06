@@ -1,0 +1,156 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon Apr 08 14:40:25 2019
+# Process ID: 12412
+# Log file: C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/vivado.log
+# Journal file: C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a\vivado.jou
+#-----------------------------------------------------------
+start_guioopen_project {C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.xpr}
+launch_simulation
+source comparator_8bit.tcl
+add_force {/comparator_8bit/a} -radix hex {56 0ns} {23 50000ps} -repeat_every 100000ps
+add_force {/comparator_8bit/b} -radix bin {89 0ns} {90 100000ps} -repeat_every 200000ps
+add_force {/comparator_8bit/b} -radix hex {89 0ns} {90 100000ps} -repeat_every 200000ps
+run all
+close_sim
+launch_simulation
+source comparator_8bit.tcl
+add_force {/comparator_8bit/a} -radix hex {20 0ns} {30 50000ps} -repeat_every 100000ps
+add_force {/comparator_8bit/b} -radix hex {10 0ns} {40 100000ps} -repeat_every 200000ps
+run all
+close_sim
+launch_simulation
+source comparator_8bit.tcl
+add_force {/comparator_8bit/a} -radix hex {10 0ns} {20 50000ps} -repeat_every 100000ps
+remove_forces { {/comparator_8bit/b} }
+add_force {/comparator_8bit/b} -radix bin {10 0ns} {40 100000ps} -repeat_every 200000ps
+add_force {/comparator_8bit/b} -radix hex {10 0ns} {40 100000ps} -repeat_every 200000ps
+run all
+close_sim
+launch_simulation
+source comparator_8bit.tcl
+add_force {/comparator_8bit/a} -radix hex {20 0ns} {30 50000ps} -repeat_every 100000ps
+add_force {/comparator_8bit/b} -radix hex {10 0ns} {40 75000ps} -repeat_every 150000ps
+run all
+close_sim
+launch_simulation
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_simulation
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_simulation
+source comparator_8bit.tcl
+add_force {/comparator_8bit/a} -radix hex {10 0ns} {20 50000ps} -repeat_every 100000ps
+add_force {/comparator_8bit/b} -radix hex {00 0ns} {40 100000ps} -repeat_every 200000ps
+run all
+close_sim
+launch_simulation
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_simulation
+launch_simulation
+launch_simulation
+close [ open {C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/partc.vhd} w ]
+add_files {{C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/partc.vhd}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xorr.vhd} w ]
+add_files {{C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xorr.vhd}}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_simulation
+remove_files {{C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator_8bit.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+close [ open {C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/one.vhd} w ]
+add_files {{C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/one.vhd}}
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top one [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+remove_files {{C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/partc.vhd}}
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top one [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+source one.tcl
+add_force {/one/x} -radix bin {1 0ns}
+add_force {/one/y} -radix bin {1 0ns}
+run 16000 ns
+restart
+add_force {/one/x} -radix bin {0 0ns}
+add_force {/one/y} -radix bin {1 0ns}
+run 16000 ns
+add_force {/one/x} -radix bin {1 0ns}
+add_force {/one/y} -radix bin {0 0ns}
+run 16000 ns
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+close_sim
+launch_simulation
+source one.tcl
+restart
+add_force {/one/x} -radix bin {0 0ns}
+add_force {/one/y} -radix bin {1 0ns}
+run 16000 ns
+add_force {/one/y} -radix bin {0 0ns}
+run 16000 ns
+add_force {/one/x} -radix bin {1 0ns}
+run 16000 ns
+close [ open {C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/two.vhd} w ]
+add_files {{C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/two.vhd}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_orr.vhd} w ]
+add_files {{C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_orr.vhd}}
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top two [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top two [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_simulation
+source two.tcl
+restart
+add_force {/two/l1} -radix bin {10 0ns}
+add_force {/two/l1} -radix bin {0 0ns}
+add_force {/two/l2} -radix bin {1 0ns}
+add_force {/two/e1} -radix bin {1 0ns}
+add_force {/two/e2} -radix bin {0 0ns}
+add_force {/two/g1} -radix bin {1 0ns}
+add_force {/two/g2} -radix bin {0 0ns}
+run 16000 ns
+close_sim
+close_sim

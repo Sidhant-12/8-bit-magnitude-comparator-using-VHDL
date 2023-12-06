@@ -1,0 +1,271 @@
+
+*** Running vivado
+    with args -log eight.vds -m64 -mode batch -messageDb vivado.pb -notrace -source eight.tcl
+
+
+****** Vivado v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source eight.tcl -notrace
+Command: synth_design -top eight -part xc7a50ticsg325-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a50ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a50ti'
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 245.426 ; gain = 72.465
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'eight' [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/eight.vhd:42]
+INFO: [Synth 8-3491] module 'comparator4bit' declared at 'C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd:35' bound to instance 'x1' of component 'comparator4bit' [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/eight.vhd:56]
+INFO: [Synth 8-638] synthesizing module 'comparator4bit' [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd:43]
+INFO: [Synth 8-3491] module 'my_not' declared at 'C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd:34' bound to instance 'u1' of component 'my_not' [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd:89]
+INFO: [Synth 8-638] synthesizing module 'my_not' [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'my_not' (1#1) [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd:39]
+INFO: [Synth 8-3491] module 'my_and' declared at 'C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/part_b.vhd:34' bound to instance 'u2' of component 'my_and' [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd:90]
+INFO: [Synth 8-638] synthesizing module 'my_and' [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/part_b.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'my_and' (2#1) [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/part_b.vhd:40]
+INFO: [Synth 8-3491] module 'my_not' declared at 'C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd:34' bound to instance 'u3' of component 'my_not' [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd:91]
+INFO: [Synth 8-3491] module 'three_and' declared at 'C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/three_and.vhd:34' bound to instance 'u4' of component 'three_and' [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd:92]
+INFO: [Synth 8-638] synthesizing module 'three_and' [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/three_and.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'three_and' (3#1) [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/three_and.vhd:41]
+INFO: [Synth 8-3491] module 'my_not' declared at 'C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd:34' bound to instance 'u5' of component 'my_not' [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd:93]
+INFO: [Synth 8-3491] module 'four_and' declared at 'C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_and.vhd:34' bound to instance 'u6' of component 'four_and' [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd:94]
+INFO: [Synth 8-638] synthesizing module 'four_and' [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_and.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'four_and' (4#1) [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_and.vhd:42]
+INFO: [Synth 8-3491] module 'my_not' declared at 'C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd:34' bound to instance 'u7' of component 'my_not' [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd:95]
+INFO: [Synth 8-3491] module 'five_and' declared at 'C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/five_and.vhd:34' bound to instance 'u8' of component 'five_and' [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd:96]
+INFO: [Synth 8-638] synthesizing module 'five_and' [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/five_and.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'five_and' (5#1) [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/five_and.vhd:43]
+INFO: [Synth 8-3491] module 'four_or' declared at 'C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_or.vhd:34' bound to instance 'u9' of component 'four_or' [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd:97]
+INFO: [Synth 8-638] synthesizing module 'four_or' [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_or.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'four_or' (6#1) [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_or.vhd:42]
+INFO: [Synth 8-3491] module 'my_xor' declared at 'C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xor.vhd:34' bound to instance 'u10' of component 'my_xor' [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd:98]
+INFO: [Synth 8-638] synthesizing module 'my_xor' [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xor.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'my_xor' (7#1) [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xor.vhd:40]
+INFO: [Synth 8-3491] module 'my_xor' declared at 'C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xor.vhd:34' bound to instance 'u11' of component 'my_xor' [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd:99]
+INFO: [Synth 8-3491] module 'my_xor' declared at 'C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xor.vhd:34' bound to instance 'u12' of component 'my_xor' [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd:100]
+INFO: [Synth 8-3491] module 'my_xor' declared at 'C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xor.vhd:34' bound to instance 'u13' of component 'my_xor' [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd:101]
+INFO: [Synth 8-3491] module 'four_and' declared at 'C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_and.vhd:34' bound to instance 'u14' of component 'four_and' [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd:102]
+INFO: [Synth 8-3491] module 'my_not' declared at 'C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd:34' bound to instance 'u15' of component 'my_not' [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd:103]
+INFO: [Synth 8-3491] module 'my_and' declared at 'C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/part_b.vhd:34' bound to instance 'u16' of component 'my_and' [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd:104]
+INFO: [Synth 8-3491] module 'my_not' declared at 'C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd:34' bound to instance 'u17' of component 'my_not' [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd:105]
+INFO: [Synth 8-3491] module 'three_and' declared at 'C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/three_and.vhd:34' bound to instance 'u18' of component 'three_and' [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd:106]
+INFO: [Synth 8-3491] module 'my_not' declared at 'C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd:34' bound to instance 'u19' of component 'my_not' [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd:107]
+INFO: [Synth 8-3491] module 'four_and' declared at 'C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_and.vhd:34' bound to instance 'u20' of component 'four_and' [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd:108]
+INFO: [Synth 8-3491] module 'my_not' declared at 'C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_not.vhd:34' bound to instance 'u21' of component 'my_not' [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd:109]
+INFO: [Synth 8-3491] module 'five_and' declared at 'C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/five_and.vhd:34' bound to instance 'u22' of component 'five_and' [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd:110]
+INFO: [Synth 8-3491] module 'four_or' declared at 'C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/four_or.vhd:34' bound to instance 'u23' of component 'four_or' [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd:111]
+INFO: [Synth 8-3491] module 'my_xor' declared at 'C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xor.vhd:34' bound to instance 'u24' of component 'my_xor' [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd:112]
+INFO: [Synth 8-3491] module 'my_xor' declared at 'C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xor.vhd:34' bound to instance 'u25' of component 'my_xor' [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd:113]
+INFO: [Synth 8-3491] module 'my_xor' declared at 'C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/my_xor.vhd:34' bound to instance 'u26' of component 'my_xor' [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd:114]
+INFO: [Synth 8-256] done synthesizing module 'comparator4bit' (8#1) [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd:43]
+INFO: [Synth 8-3491] module 'comparator4bit' declared at 'C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/comparator4bit.vhd:35' bound to instance 'x2' of component 'comparator4bit' [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/eight.vhd:57]
+INFO: [Synth 8-256] done synthesizing module 'eight' (9#1) [C:/Users/Admin/Desktop/8_bit_part_a/8_bit_part_a.srcs/sources_1/new/eight.vhd:42]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 279.629 ; gain = 106.668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 279.629 ; gain = 106.668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a50ticsg325-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 279.629 ; gain = 106.668
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a50ticsg325-1L
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 287.082 ; gain = 114.121
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'comparator4bit:/u10' (my_xor) to 'comparator4bit:/u24'
+INFO: [Synth 8-223] decloning instance 'comparator4bit:/u11' (my_xor) to 'comparator4bit:/u25'
+INFO: [Synth 8-223] decloning instance 'comparator4bit:/u12' (my_xor) to 'comparator4bit:/u26'
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 8     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module eight 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module my_xor 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 120 (col length:60)
+BRAMs: 150 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 410.281 ; gain = 237.320
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 411.566 ; gain = 238.605
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 411.566 ; gain = 238.605
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 430.309 ; gain = 257.348
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 430.309 ; gain = 257.348
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 430.309 ; gain = 257.348
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 430.309 ; gain = 257.348
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 430.309 ; gain = 257.348
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 430.309 ; gain = 257.348
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 430.309 ; gain = 257.348
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 430.309 ; gain = 257.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 430.309 ; gain = 257.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 430.309 ; gain = 257.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT2 |     2|
+|2     |LUT4 |     2|
+|3     |LUT5 |     1|
+|4     |LUT6 |     7|
+|5     |IBUF |    16|
+|6     |OBUF |     3|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    31|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 430.309 ; gain = 257.348
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 430.309 ; gain = 237.949
+Synthesis Optimization Complete : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 430.309 ; gain = 257.348
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 16 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+58 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 488.125 ; gain = 297.063
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.076 . Memory (MB): peak = 488.125 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 08 20:34:10 2019...

@@ -1,0 +1,22 @@
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 753322aedeca45658dd338c6f3be1cb0 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot eight_behav xil_defaultlib.eight -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.my_not [my_not_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_and [my_and_default]
+Compiling architecture behavioral of entity xil_defaultlib.three_and [three_and_default]
+Compiling architecture behavioral of entity xil_defaultlib.four_and [four_and_default]
+Compiling architecture behavioral of entity xil_defaultlib.five_and [five_and_default]
+Compiling architecture behavioral of entity xil_defaultlib.four_or [four_or_default]
+Compiling architecture behavioral of entity xil_defaultlib.my_xor [my_xor_default]
+Compiling architecture behavioral of entity xil_defaultlib.comparator4bit [comparator4bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.eight
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot eight_behav

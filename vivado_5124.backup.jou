@@ -1,0 +1,80 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Sun Apr 07 20:42:37 2019
+# Process ID: 4628
+# Log file: C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/vivado.log
+# Journal file: C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Sidhant/Desktop/8 bit magnitude comparator/8_bit_part_a/8_bit_part_a.xpr}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_simulation
+source comparator_8bit.tcl
+add_force {/comparator_8bit/a} -radix bin {00001010 0ns}
+add_force {/comparator_8bit/b} -radix bin {01010101 0ns}
+run 16000 ns
+restart
+add_force {/comparator_8bit/a} -radix bin {10101010 0ns}
+add_force {/comparator_8bit/b} -radix bin {10101010 0ns}
+run 16000 ns
+restart
+add_force {/comparator_8bit/a} -radix bin {11111111 0ns}
+add_force {/comparator_8bit/b} -radix bin {11111110 0ns}
+run 16000 ns
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+close_sim
+launch_simulation
+source comparator_8bit.tcl
+add_force {/comparator_8bit/a} -radix bin {11111111 0ns}
+add_force {/comparator_8bit/b} -radix bin {11111111 0ns}
+run 16000 ns
+restart
+add_force {/comparator_8bit/a} -radix bin {01010101 0ns}
+add_force {/comparator_8bit/b} -radix bin {10101010 0ns}
+run 16000 ns
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_simulation
+source comparator_8bit.tcl
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+close_sim
+launch_simulation
+source comparator_8bit.tcl
+synth_design -rtl -name rtl_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+close_sim
+launch_simulation
+source comparator_8bit.tcl
+restart
+add_force {/comparator_8bit/a} -radix bin {10101010 0ns}
+add_force {/comparator_8bit/b} -radix bin {10101010 0ns}
+run 16000 ns
+restart
+add_force {/comparator_8bit/a} -radix bin {00000000 0ns}
+run 16000 ns
+add_force {/comparator_8bit/a} -radix bin {11111111 0ns}
+run 16000 ns
+close_sim
