@@ -31,12 +31,12 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity comparator_8bit is
+entity comparator8using4 is
     Port ( a : in STD_LOGIC_VECTOR (7 downto 0);
            b : in STD_LOGIC_VECTOR (7 downto 0);
-           agb : out STD_LOGIC;
            aeb : out STD_LOGIC;
-           alb : out STD_LOGIC);
+           alb : out STD_LOGIC;
+           agb : out STD_LOGIC);
 end comparator_8bit;
 
 architecture Behavioral of comparator_8bit is
@@ -49,19 +49,17 @@ component comparator4bit is
            equal : out STD_LOGIC);
 end component;
 
-signal g,l,eq,g1,l1,e1:std_logic;
+signal g,l,ee,g1,l1,e1:std_logic;
 begin
-x1:comparator4bit port map(a(0 downto 3),b(0 downto 3),l,eq,g);
-x2:comparator4bit port map(a(4 downto 7),b(4 downto 7),l1,e1,g1);
+x1:comparator4bit port map(a(0 downto 3),b(0 downto 3),g,l,ee);
+x2:comparator4bit port map(a(4 downto 7),b(4 downto 7),g1,l1,e1);
 
-process(g1,l1,e1,g,l,eq) is
+process(g1,l1,e1,g,l,ee) is
 begin
 
 if(g='1') then agb<='1';alb<='0';aeb<='0';
 elsif(l='1') then agb<='0';alb<='1';aeb<='0';
-end if;
---els
-if(eq='1')then
+else
 if(g1='1')then agb<='1';alb<='0';aeb<='0';
 elsif(l1='1') then agb<='0';alb<='1';aeb<='0';
 else aeb<='1'; alb<='0';agb<='0';
@@ -69,4 +67,4 @@ end if;
 end if;
 
 end process;
-end behavioral;
+end behavioral;
